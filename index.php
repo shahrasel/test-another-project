@@ -7,6 +7,7 @@ function authenticate()
     echo "<title>"."admin authentication"."</title>
 	<style type=\"text/css\" media=\"screen\">@import \"style.css\";</style>
 	<li><h2>"."user"." :</h2>"."admin".".\n";
+	
     exit;
 }
 /*

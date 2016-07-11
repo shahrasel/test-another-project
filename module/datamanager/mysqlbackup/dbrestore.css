@@ -1,0 +1,39 @@
+.tab-s, .tab-g {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tab-s:hover, .tab-g:hover {
+	text-decoration: underline;
+}
+
+.tab-s, .blue{
+	color: #0066CC;
+}
+
+.tab-g {
+	color: #666666;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0066CC;
+}
+.button {
+	cursor: hand;
+	border: 1px solid #A9A9A9;
+}
+table,tr,th,td {
+	font-size: 14px;
+	/*text-align:center;*/
+}
+div.flotte {
+	float: right;
+}
+label {
+	border-bottom: 1px dashed #CD5C5C;
+	cursor: help;
+}

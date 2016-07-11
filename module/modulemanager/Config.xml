@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Site Name</label>
+	<name>site_name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Site Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Site Url</label>
+	<name>site_url</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Site URL</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Site Admin Name</label>
+	<name>admin_name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Site Admin Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Admin Email</label>
+	<name>admin_email</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Admin Email</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Smtp Host Name</label>
+	<name>smtp_host</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter SMTP host name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Page Suffix</label>
+	<name>page_suffix</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Page Suffix</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Invalid Page Name</label>
+	<name>invalid_page</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Invalid Page Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Auth Key</label>
+	<name>auth_key</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Auth Key</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Auth Value</label>
+	<name>auth_value</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Auth Value</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Frontend Auth Key</label>
+	<name>fauth_key</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Auth Key</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Frontend Auth Value</label>
+	<name>fauth_value</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Auth Value</message>
+	<rule>notempty</rule>
+</field>
+
+<field>
+	<label>Paypal Url</label>
+	<name>paypal_url</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Paypal Url Value</message>
+	<rule>notempty</rule>
+</field>
+
+<field>
+	<label>Paypal User Name</label>
+	<name>paypal_user_name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Paypal User Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Date Format</label>
+	<name>date_format</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter Date Format</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>No Of Record Per Page</label>
+	<name>per_page</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter No Of Record Per Page</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Debug Mode</label>
+	<name>debug_mode</name>
+	<type>checkbox</type>
+	<class>input_box</class>	
+</field>

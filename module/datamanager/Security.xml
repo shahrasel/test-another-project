@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<create>
+	<role>admin</role>
+</create>
+
+<backuptables>
+	<role>admin</role>
+</backuptables>
+
+<generate>
+	<role>admin</role>
+</generate>
+
+<list>
+	<role>admin</role>
+</list>
+
+<delete>
+	<role>admin</role>
+</delete>
+
+<import>
+	<role>admin</role>
+</import>
+
+<importfromfile>
+	<role>admin</role>
+</importfromfile>
+
+<optimize>
+	<role>admin</role>
+</optimize>
+
+<config>
+	<role>admin</role>
+</config>
+
+<monitor>
+	<role>admin</role>
+</monitor>
+
+<monitor>
+	<role>admin</role>
+</monitor>
+
+<home>
+	<role>admin</role>
+</home>
+
+<backup>
+	<role>admin</role>
+</backup>
+
+<restore>
+	<role>admin</role>
+</restore>
+
+<getbackup>
+	<role>admin</role>
+</getbackup>

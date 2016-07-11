@@ -1,0 +1,14 @@
+<Limit GET POST PUT>
+Order Allow,Deny
+Allow from All
+</Limit>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+
+#RewriteRule ^(admin*)$ admin [QSA,L]
+#RewriteRule ^(.*)\-([0-9]*)\.php index.php?cn_nav_var=$1.php&start_id=$2 [QSA,L]
+RewriteRule ^(.*) index.php?request_url=$1 [QSA,L]

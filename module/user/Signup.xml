@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Please enter your Email Address</label>
+	<name>login_name</name>
+	<type>text</type>
+	<class>input_box_275</class>
+	<message>Please Enter Valid Email Address</message>
+	<rule>email</rule>
+</field>
+<field>
+	<label>Enter a Password of at least four characters</label>
+	<name>login_password</name>
+	<type>password</type>
+	<class>input_box_275</class>
+	<message>Enter a Password of at least four characters</message>
+	<rule>notempty</rule>
+	<minlength>4</minlength>
+</field>
+<field>
+	<label>Re-enter your Password to confirm</label>
+	<name>relogin_password</name>
+	<type>password</type>
+	<class>input_box_275</class>
+	<message>Re-enter your Password to confirm</message>
+	<minlength>4</minlength>
+	<rule>notempty</rule>
+	<equalto>login_password</equalto>
+</field>

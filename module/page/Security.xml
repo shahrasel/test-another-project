@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<add>
+	<role>admin</role>
+</add>
+<edit>
+	<role>admin</role>
+</edit>
+<manage>
+	<role>admin</role>
+</manage>
+<clear_cache>
+	<role>admin</role>
+</clear_cache>

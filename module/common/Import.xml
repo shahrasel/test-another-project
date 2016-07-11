@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>City</label>
+	<name>pub_city</name>
+	<type>select</type>
+	<class>text_box_250</class>
+	<message>Please Select Pub City</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Import File</label>
+	<name>importfile</name>
+	<type>file</type>
+	<class></class>
+	<message>Must be valid file type</message>
+	<rule></rule>
+	<validtype>xls</validtype>
+	<maxlength></maxlength>
+	<minlength></minlength>
+</field>

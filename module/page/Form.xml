@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Page Title:<span style="color:#CC0000;">*</span></label>
+	<name>page_title</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Page Title</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Meta Description</label>
+	<name>meta_description</name>
+	<type>textarea</type>
+	<class>text_area_550</class>
+</field>
+<field>
+	<label>Meta Keyword</label>
+	<name>meta_keyword</name>
+	<type>textarea</type>
+	<class>text_area_550</class>
+</field>
+<field>
+	<label>Unique Name</label>
+	<name>unique_name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Unique Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Navigation Name</label>
+	<name>navigation_name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Navigation Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Page Filter</label>
+	<name>filter</name>
+	<type>textarea</type>
+	<class>text_area_550</class>
+</field>
+<field>
+	<label>Page Template</label>
+	<name>template</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter Page Template</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Show On Navigation</label>
+	<name>is_navigate</name>
+	<type>checkbox</type>
+</field>
+<field>
+	<label>Cache This Page</label>
+	<name>is_cache</name>
+	<type>checkbox</type>
+</field>
+<field>
+	<label>Is Ajax Page</label>
+	<name>is_ajax</name>
+	<type>checkbox</type>
+</field>
+<field>
+	<label>Is Secure Page</label>
+	<name>is_secure</name>
+	<type>checkbox</type>
+</field>
+<field>
+	<label>Active</label>
+	<name>active</name>
+	<type>select</type>
+	<class>select_box_250</class>
+</field>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Login Name</label>
+	<name>login_name</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter User Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Email</label>
+	<name>email</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter Valid Eail Address</message>
+	<rule>email</rule>
+</field>
+<field>
+	<label>Password</label>
+	<name>login_password</name>
+	<type>password</type>
+	<class>text_box_250</class>
+	<message>Please Enter Password</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Retype Password</label>
+	<name>relogin_password</name>
+	<type>password</type>
+	<class>text_box_250</class>
+	<message>Please Re-Enter Password</message>
+	<rule>notempty</rule>
+	<equalto>login_password</equalto>
+</field>
+<field>
+	<label>User Role</label>
+	<name>role</name>
+	<type>select</type>
+	<class>select_box_250</class>
+	<message>Must be select an user role</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Active Status</label>
+	<name>active</name>
+	<type>select</type>
+	<class>select_box_250</class>
+	<message>Must be select an active status</message>
+	<rule>notempty</rule>
+</field>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Message Text</label>
+	<name>mtext</name>
+	<type>textarea</type>
+	<class>text_area_550</class>
+</field>

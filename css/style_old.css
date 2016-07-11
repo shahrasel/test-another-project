@@ -1,0 +1,2195 @@
+/* CSS Document */
+
+
+body{	padding-bottom:0px; padding-left:0px; padding-right:0px; padding-right:0px; padding-top:0px;
+		font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; margin:0px; color:#000000; background:#f2f2f2;	 }
+		
+div, p, h1, h2, h3, ul, img{padding:0px; margin:0px; text-decoration:none;}	
+
+h1 a {
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:13px;
+	padding:0px;
+	margin:0px;
+	color:#6C6C6C;
+	padding-right:3px;
+	text-decoration:none;
+}
+
+h1 a:hover {
+	
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:13px;
+	padding:0px;
+	margin:0px;
+	color:#4981D9;
+	padding-right:3px;
+	text-decoration:underline;
+}
+
+#wrapper_block1{
+   	width:100%;		
+	float:left;
+	background:#f2f2f2 url(/annanovas/images/main_body.gif) repeat-x;
+	}
+	
+#header_block{
+width:1100px;
+margin:auto;
+position:relative;
+}
+.header_block{
+width:1100px;
+margin:auto;
+position:relative;
+}
+#wrapper_block2{
+	float:left;
+	position:relative;
+	width:100%;
+	background:#f2f2f2 url(/annanovas/images/main_body.gif) repeat-x;
+	}
+#main_body{
+	margin:auto;
+	width:985px;
+	position:relative;
+}
+
+
+.search{
+	float:left;
+	width:153px;
+	position:relative;
+	margin-top:95px;
+	background:url(/annanovas/images/search_background.gif) no-repeat;
+	height:29px;
+	padding-top:11px;
+	padding-left:17px;
+}
+.search_text{
+float:left;
+position:relative;
+}
+.search_text_1{
+float:left;
+position:relative;
+width:100px;
+background:url(/annanovas/images/search_middle.gif) repeat-x;
+height:16px;
+border:0px;
+font-size:11px;
+color:#636363;
+}
+.search_text_2{
+float:left;
+position:relative;
+}
+.search_input{
+float:left;
+position:relative;
+width:102px;
+padding-top:0px;
+height:18px;
+background:url(/annanovas/images/search_middle.gif) repeat-x;
+font-size:10px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+color:#000;
+}
+/*
+.nav{
+float:left;
+position:relative;
+width:985px;
+padding-left:0px;
+padding-top:9px;
+padding-bottom:24px;
+}
+.nav ul{
+padding:0px;
+margin:0px;
+
+}
+
+.nav ul li{
+float:left;
+position:relative;
+display:inline;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+color:#3a3a3a;
+text-decoration:none;
+list-style:none;
+}
+.nav ul li a{
+float:left;
+position:relative;
+display:inline;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#3a3a3a;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+list-style:none;
+}
+.nav ul li a span{
+float:left;
+position:relative;
+display:block;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#3a3a3a;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_new.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+.nav ul li a:hover{
+float:left;
+position:relative;
+display:inline;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+}
+.nav ul li a:hover span{
+float:left;
+position:relative;
+display:block;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_new.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+.nav ul li.select a{
+float:left;
+position:relative;
+display:inline;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+list-style:none;
+}
+.nav ul li.select a span{
+float:left;
+position:relative;
+display:block;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_new.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+*/
+
+.nav{
+float:left;
+position:relative;
+width:985px;
+padding-left:0px;
+padding-top:9px;
+padding-bottom:24px;
+}
+.nav ul{
+padding:0px;
+margin:0px;
+
+}
+
+.nav ul li{
+float:left;
+position:relative;
+display:inline;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+color:#3a3a3a;
+text-decoration:none;
+list-style:none;
+}
+.nav ul li a{
+float:left;
+position:relative;
+display:inline;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#3a3a3a;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+list-style:none;
+}
+.nav ul li a span{
+float:left;
+position:relative;
+display:block;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#3a3a3a;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_new.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+.nav ul li a:hover{
+float:left;
+position:relative;
+display:inline;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left_hover.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+}
+.nav ul li a:hover span{
+float:left;
+position:relative;
+display:block;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_hover.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+.nav ul li.select a{
+float:left;
+position:relative;
+display:inline;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left_hover.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+list-style:none;
+}
+.nav ul li.select a span{
+float:left;
+position:relative;
+display:block;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_right_hover.gif) no-repeat right;
+height:24px;
+padding-right:15px;
+margin-right:4px;
+padding-top:7px;
+}
+
+.nav ul li.select a:hover{
+float:left;
+position:relative;
+display:inline;
+font-family:Tahoma, "Times New Roman", Verdana;
+font-size:11px;
+font-weight:bold;
+color:#2757a2;
+text-decoration:none;
+background:url(/annanovas/images/home1_white_left_hover.gif) no-repeat left;
+height:31px;
+padding-left:15px;
+list-style:none;
+}
+
+.slider{
+float:left;
+position:relative;
+width:972px;
+padding-top:43px;
+background:url(/annanovas/images/slider_middle.gif) repeat-x;
+border:#e1e1e1 solid 1px;
+}
+.slider1{
+float:left;
+position:relative;
+width:895px;
+padding-left:10px;
+padding-bottom:19px;
+}
+.slider1 ul{
+	margin:0px;
+	padding:0px;
+}
+.slider1 ul li{
+	float:left;
+	position:relative;
+	padding-right:0px;
+	display:inline;
+	padding-right:30px;
+	padding-left:30px;
+	padding-bottom:5px;
+
+}
+.slider1 ul li a{
+	
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	text-decoration:none;
+	text-align:center;
+	padding-left:0px;
+}
+
+.slider1 ul li a:hover{
+	
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6b81e6 !important;
+	text-decoration:none;
+	text-align:center;
+	padding-left:0px;
+}
+.slider1 ul li a span{
+
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	text-decoration:none;
+   	text-align:center;
+	
+}
+
+.slider1 ul li a span:hover{
+		color:#6c6c6c;
+}
+.slider1 ul li.last{
+	float:left;
+	position:relative;
+	padding-right:0px;
+	display:inline;
+	padding-right:0px;
+}
+.slider1 ul li.last a{
+	
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	text-decoration:none;
+	text-align:center;
+	padding-left:0px;
+}
+.slider1 ul li.last a span{
+
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	text-decoration:none;
+	text-align:center;
+	padding-left:0px;
+	margin-left:-60px;
+}
+
+.slider_001{
+float:left;
+position:relative;
+width:70px;
+padding-left:33px;
+padding-right:33px;
+}
+.slider_1{
+float:left;
+position:relative;
+width:70px;
+padding-left:33px;
+padding-right:33px;
+}
+.slider_2{
+float:left;
+position:relative;
+width:70px;
+}
+.slider_3{
+float:left;
+position:relative;
+width:64px;
+text-align:center;
+padding-top:1px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:11px;
+color:#6c6c6c;
+padding-bottom:18px;
+}
+.slider_3 a{
+text-decoration:none;
+color:#6c6c6c;
+}
+.slider_3 a:hover{
+text-decoration:none;
+color:#4981D9;
+}
+.slider_01{
+float:left;
+position:relative;
+width:70px;
+padding-left:66px;
+}
+.slider_4{
+float:left;
+position:relative;
+padding-left:11px;
+padding-bottom:10px;
+width:945px;
+}
+.slider_5{
+float:left;
+position:relative;
+width:31px;
+}
+.slider_6{
+float:left;
+position:relative;
+background:url(/annanovas/images/slider_middle_2.gif) repeat-x;
+height:20px;
+width:472px;
+padding-left:410px;
+}
+.slider_7{
+float:left;
+position:relative;
+}
+.slider_7 a{
+float:left;
+position:relative;
+background:url(/annanovas/images/accer.gif) no-repeat;
+width:103px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+color:#050504;
+font-size:10px;
+text-align:center;
+height:16px;
+margin-top:2px;
+text-decoration:none;
+}
+.slider_8{
+float:left;
+position:relative;
+width:32px;
+}
+#service{
+float:left;
+position:relative;
+width:985px;
+padding-top:0px;
+padding-bottom:0px;
+}
+#solution{
+float:left;
+position:relative;
+width:735px;
+}
+#demo{
+float:left;
+position:relative;
+width:985px;
+padding-top:0px;
+}
+.service_2{
+float:left;
+position:relative;
+width:735px;
+}
+.programing_solution{
+float:left;
+position:relative;
+width:735px;
+}
+.programing_solution_body{
+float:left;
+position:relative;
+width:232px;
+padding-right:7px;
+padding-bottom:0px;
+}
+
+.programing_solution_body h3{
+float:left;
+position:relative;
+background: no-repeat;
+width:232px;
+height:47px;
+text-align:left;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:13px;
+font-weight:bold;
+padding-top:15px;
+padding-left:20px;
+background:url(/annanovas/images/solution_top.gif) no-repeat;
+}
+.programing_solution_body h3 a{
+color:#2d2d2d;
+text-decoration:none;
+}
+.programing_solution_body h3:hover{
+float:left;
+position:relative;
+background: no-repeat;
+width:232px;
+height:47px;
+text-align:left;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:13px;
+font-weight:bold;
+padding-top:15px;
+padding-left:20px;
+background:url(/annanovas/images/solution_top-hover.gif) no-repeat;
+}
+
+.search_area{
+float:left;
+position:relative;
+width:230px;
+background:#fcfcfc;
+padding-top:5px;
+padding-bottom:5px;
+border-left:#e5e5e5 solid 1px;
+border-right:#e5e5e5 solid 1px;
+padding-top:20px;
+}
+.text_box_search{
+width:135px;
+height:16px;
+float:left;
+background:#FFFFFF;
+margin-left:10px;
+border:#e0e0e0 solid 1px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+color:#333333;
+font-size:11px;
+
+
+}
+
+.web_design{
+float:left;
+width:230px;
+background:#fbfbfb;
+border-left:#e5e5e5 solid 1px;
+border-right:#e5e5e5 solid 1px;
+
+}
+
+.web_design ul{
+margin:0px;
+padding:0px;
+}
+.web_design ul li{
+	float:left;
+	position:relative;
+	width:232px;	
+	list-style:none;	
+}
+.web_design ul li a{
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#6c6c6c;
+	float:left;
+	position:relative;
+	width:182px;
+	background:url(/annanovas/images/solution_1.gif) no-repeat;
+	height:23px;
+	list-style:none; 
+	padding-left:50px;
+	padding-top:11px;
+}
+.web_design ul li a:hover{
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#4981d9;
+	float:left;
+	position:relative;
+	width:182px;
+	background:url(/annanovas/images/solution_2.gif) no-repeat;
+	height:23px;
+	list-style:none;
+	padding-left:50px;
+	padding-top:11px;
+}
+.web_design ul li.select a{
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#4981d9;
+	float:left;
+	position:relative;
+	width:182px;
+	background:url(/annanovas/images/solution_2.gif) no-repeat;
+	height:23px;
+	list-style:none;
+	padding-left:50px;
+	padding-top:11px;
+}
+
+
+.solution_bottom{
+float:left;
+position:relative;
+background:url(/annanovas/images/solution_bottom.gif) no-repeat;
+width:232px;
+height:27px;
+font-size:0px;
+}
+
+.our_service_left{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_left.gif) no-repeat;
+	width:10px;
+	height:39px;
+}
+.service_tittle{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+	width:704px;
+	height:29px;
+	padding-left:10px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:18px;
+	color:#333333;
+	padding-top:10px;
+}
+.our_service_right{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_right.gif) no-repeat;
+	width:7px;
+	height:39px;
+}
+.our_service_3{
+	float:left;
+	position:relative;
+	width:707px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	padding-top:20px;
+	padding-left:22px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#636363;
+	background:#f2f1f1 url(/annanovas/images/programin_solution_body.gif) repeat-x;
+}
+.programing_solution1{
+	float:left;
+	position:relative;
+	width:720px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	padding-top:15px;
+	padding-left:10px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#636363;
+	background:#f2f1f1 url(/annanovas/images/programin_solution_body.gif) repeat-x;
+}
+.demo_body{
+	float:left;
+	position:relative;
+	width:729px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	padding-top:6px;
+	padding-left:0px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#636363;
+	background:#ffffff url(/annanovas/images/demo_body.gif) repeat-x;
+}
+
+.portfolio_box{
+	float:left;
+	position:relative;
+	width:710px;
+	border:#e0e0e0 solid 1px;
+	margin-left:8px;
+	margin-top:15px;
+ }
+.template_box_block{
+float:left;
+position:relative;
+width:465px;
+margin-left:12px;
+}
+
+ .template_box{
+	float:left;
+	width:495px;
+	margin-top:0px;
+	margin-left:5px;
+ }
+
+.template_box_tittle{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+	width:463px;
+	height:29px;
+	padding-left:10px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:18px;
+	color:#333333;
+	padding-top:10px;
+}
+
+.template_box_body{
+	float:left;
+	position:relative;
+	width:488px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	padding-top:6px;
+	padding-left:0px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#636363;
+	background:#ffffff ;
+}
+
+.template_box_bottom_left{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/demo_bottom_middle.gif) repeat-x;
+	width:482px;
+	height:19px;
+}
+
+
+
+.template_box_bottom_right{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/demo_bottom_right.gif) no-repeat;
+	width:8px;
+	height:19px;
+}
+
+
+
+.our_service_4{
+	float:left;
+	position:relative;
+	width:675px;	
+	background:url(/annanovas/images/service_body_bottom_right.gif) no-repeat bottom right;
+	line-height:20px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#636363;
+	padding-bottom:10px;
+	padding-right:32px;
+	text-align:justify;
+}
+.our_service_4 p{
+	padding-top:7px;
+}
+.our_service_5{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/service_body_bottom.gif) no-repeat;
+	width:731px;
+	height:17px;
+}
+.our_service_bottom_left{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/service_body_bottom_middle.gif) repeat-x;
+	width:723px;
+	height:17px;
+}
+.our_service_bottom_right{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/service_body_bottom_right_2.gif) no-repeat;
+	width:8px;
+	height:17px;
+}
+.demo_body_bottom_left{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/demo_bottom_middle.gif) repeat-x;
+	width:723px;
+	height:19px;
+}
+.demo_body_bottom_right{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/demo_bottom_right.gif) no-repeat;
+	width:8px;
+	height:19px;
+}
+
+.feature_product_block{
+float:left;
+position:relative;
+width:232px;
+}
+.feature_product{
+float:left;
+position:relative;
+width:232px;
+padding-left:10px;
+}
+.tecnology{
+float:left;
+position:relative;
+width:236px;
+padding-left:10px;
+}
+
+.template_category_block{
+float:left;
+position:relative;
+width:236px;
+padding-left:0px;
+}
+
+.feature_product_tittle{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+	width:212px;
+	height:29px;
+	text-align:left;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:18px;
+	color:#333333;
+	padding-top:10px;
+}
+.tecnology_tittle{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+	width:210px;
+	height:29px;
+	text-align:left;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:18px;
+	color:#484646;
+	padding-top:10px;
+	padding-left:5px;
+}
+.feature_product_body{
+	float:left;
+	position:relative;
+	width:227px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background:#fefefe;
+}
+.feature_product_body0{
+	float:left;
+	position:relative;
+	width:227px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background:#f2f1f1 url(/annanovas/images/programin_solution_body.gif) repeat-x;
+}
+.feature_body_top{
+	float:left;
+	position:relative;
+	width:227px;
+}
+.feature_body_left{
+	float:left;
+	position:relative;
+	width:227px;
+	background:url(/annanovas/images/feature_product_middle.gif) repeat-y;
+}
+.feature_body_right{
+	float:left;
+	position:relative;
+	width:227px;
+	background:url(/annanovas/images/feature_product_middle.gif) repeat-y right;
+}
+.signal_left{
+	float:left;
+	position:relative;
+	width:10px;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.feature_images{
+	float:left;
+	position:relative;
+	width:207px;
+	text-align:center;
+	margin-top:-5px;
+	padding-bottom:3px;
+}
+.feature_text{
+	float:left;
+	position:relative;
+	width:182px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#4981d9;
+	padding-left:25px;
+	text-align:left;	
+}
+.feature_text a{
+	float:left;
+	position:relative;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#4981d9;
+	text-decoration:none;
+}
+.feature_text a:hover{
+	float:left;
+	position:relative;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#4981d9;
+	text-decoration:underline;
+}
+.feature_text_1{
+	float:left;
+	position:relative;
+	width:182px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#636363;
+	padding-left:25px;
+	text-align:left;
+	padding-top:2px;
+	line-height:15px;
+	border-bottom:#dad9d9 solid 1px;
+	padding-bottom:3px;
+}
+
+.feature_star{
+	/*float:left;
+	
+	padding-left:75px;
+	width:127px;
+	text-align:left;
+	*/
+	position:relative;
+  padding-left:0px; 
+	width:206px; 
+	height:10px;
+	padding-top:7px;
+	padding-bottom:3px;
+}
+.feature_star a{
+	float:left;
+	/*padding-left:3px;
+	padding-right:3px;*/
+	
+	position:relative;
+	background:url(/annanovas/images/arry-smlle.gif) no-repeat;
+	width:5px;
+	height:5px;
+	padding-right:4px;
+}
+.feature_star a.select{
+	background:url(/annanovas/images/arry-smlle-1.gif) no-repeat;
+	width:5px;
+	height:5px;
+}
+.feature_star a:hover{
+	background:url(/annanovas/images/arry-smlle-1.gif) no-repeat;
+	width:5px;
+	height:5px;
+}
+.last_book{
+float:left;
+position:relative;
+width:950px;
+padding-top:12px;
+padding-left:22px;
+}
+.footer_body{
+float:left;
+position:relative;
+background:url(/annanovas/images/footer_picture.gif) no-repeat;
+width:234px;
+height:88px;
+padding-right:14px;
+}
+.footer_body_1{
+float:left;
+position:relative;
+background:url(/annanovas/images/footer_picture.gif) no-repeat;
+width:234px;
+height:64px;
+padding-top:24px;
+}
+.feature_body_bottom_left{
+	float:left;
+	position:relative;
+	width:218px;
+	background:url(/annanovas/images/feature_body_bottom_middle.gif) repeat-x;
+	height:14px;
+}
+.feature_body_bottom_right{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/feature_body_bottom_right.gif) no-repeat;
+	width:12px;
+	height:14px;
+	font-size:0px;
+}
+.news_body_bottom_left{
+	float:left;
+	position:relative;
+	width:221px;
+	background:url(/annanovas/images/news_bottom_middle.gif) repeat-x;
+	height:14px;
+}
+.news_body_bottom_right{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/news_bottom_right.gif) no-repeat;
+	width:8px;
+	height:14px;
+	font-size:0px;
+}
+.book_1{
+float:left;
+margin-top:-12px;
+margin-left:1px;
+}
+.book_body{
+float:left;
+padding-top:25px;
+padding-left:10px;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:10px;
+color:#6c6c6c;
+}
+.book_body a{
+float:left;
+position:relative;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:10px;
+color:#6c6c6c;
+text-decoration:none;
+}
+.book_body a:hover{
+float:left;
+position:relative;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:10px;
+color:#4188f7;
+text-decoration:underline;
+}
+.last_book_02{
+float:left;
+position:relative;
+padding-left:38px;
+width:63px;
+margin-top:-6px;
+}
+.last_book_4{
+float:left;
+position:relative;
+width:80px;
+padding-top:12px;
+padding-left:26px;
+}
+.last_book_5{
+float:left;
+position:relative;
+width:88px;
+padding-bottom:4px;
+padding-left:26px;
+}
+.annanovas{
+float:left;
+position:relative;
+width:985px;
+text-align:center;
+font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:12px;
+color:#6c6c6c;
+padding-bottom:5px;
+}
+.news_letter_body{
+	float:left;
+	position:relative;
+	width:187px;
+	font-size:11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color:#636363;
+	line-height:19px;
+	padding-left:25px;
+	padding-right:15px;
+	padding-top:25px;
+	padding-bottom:13px;
+}
+.sevice_inner_tittle{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#636363;
+	padding-bottom:2px;
+}
+.readmore{
+	float:left;
+	position:relative;
+	width:9px;
+	padding-left:120px;
+}
+.readmore_1{
+	float:left;
+	position:relative;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	background:url(/annanovas/images/button_middle.gif) repeat-x;
+	width:70px;
+	height:22px;
+	padding-top:3px;
+	padding-left:2px;
+}
+.readmore_1 a{
+	text-decoration:none;
+	color:#636363;
+	background:url(/annanovas/images/arry-black.gif) no-repeat right;
+	height:12px;
+	padding-right:15px;
+}
+.readmore_1 a:hover{
+	text-decoration:none;
+	color:#4981d9;
+	background:url(/annanovas/images/arry-blue.gif) no-repeat right;
+	height:12px;
+	padding-right:15px;
+}
+.readmore_2{
+	float:left;
+	position:relative;
+	width:9px;
+}
+.solution_links{
+	float:left;
+	position:relative;
+	width:39px;
+	padding-top:10px;
+}
+
+.links_body{
+float:left;
+position:relative;
+width:985px;
+}
+.links{
+	float:left;
+	width:910px;
+	position:relative;
+}
+.links_body_middle{
+	float:left;
+	position:relative;
+	background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+	width:950px;
+	height:38px;
+	padding-left:10px;
+	padding-top:1px;
+}
+.links ul{
+	margin:0px;
+	padding:0px;
+}
+.links ul li{
+	float:left;
+	position:relative;
+	list-style:none;
+	background:url(/annanovas/images/links_pic_2.gif) no-repeat right;
+	padding-left:25px;
+	height:25px;
+	padding-top:12px;
+	padding-right:15px;
+}
+.links ul li a{
+	float:left;
+	position:relative;
+	color:#757575;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.links ul li a:hover{
+	float:left;
+	position:relative;
+	color:#4188f7;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.sub_links{
+	float:left;
+	position:relative;
+	width:965px;
+	border-left:#e0e0e0 solid 1px;
+	border-right:#e0e0e0 solid 1px;	
+	padding-left:10px;
+	background:#f2f1f1 url(/annanovas/images/programin_solution_body.gif) repeat-x;
+}
+.links_bottom_left{
+	float:left;
+	position:relative;
+	font-size:0px;
+	background:url(/annanovas/images/service_body_bottom_middle.gif) repeat-x;
+	width:968px;
+	height:17px;
+}
+.ann_links{
+	float:left;
+	position:relative;
+	padding-left:20px;
+	width:210px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.ann_links_heder{
+	float:left;
+	position:relative;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#2d2d2d;
+	padding-bottom:12px;
+}
+.program_links{
+	float:left;
+	position:relative;
+	width:145px;
+	background:url(/annanovas/images/links_separate.gif) repeat-y right;
+	padding-right:40px;
+}
+.program_links ul{
+	margin:0px;
+	padding:0px;
+}
+.program_links ul li{
+	list-style:none;
+	text-decoration:none;
+}
+.program_links ul li a{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-black.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#6c6c6c;
+	padding-left:15px;
+}
+.program_links ul li a:hover{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-blue.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#4188f7;
+	padding-left:15px;
+}
+.program_links ul li.select a{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-blue.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#4188f7;
+	padding-left:15px;
+}
+.program_links1{
+	float:left;
+	position:relative;
+	width:175px;	
+}
+.program_links1 ul{
+	margin:0px;
+	padding:0px;
+}
+.program_links1 ul li{
+	list-style:none;
+	text-decoration:none;
+}
+.program_links1 ul li a{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-black.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#6c6c6c;
+	padding-left:15px;
+}
+.program_links1 ul li a:hover{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-blue.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#4188f7;
+	padding-left:15px;
+}
+.program_links1 ul li.select a{
+	text-decoration:none;
+	background:url(/annanovas/images/arry-blue.gif) no-repeat;
+	height:8px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#4188f7;
+	padding-left:15px;
+}
+.demo_picture{
+	float:left;
+	position:relative;
+	width:450px;
+    border:#e0e0e0 solid 1px;
+	padding:1px;
+    margin-top:5px;
+	margin-left:5px;
+
+
+}
+.demo_text{
+	float:left;
+	position:relative;
+	width:685px;
+	padding:5px;
+	background:#fbfafa;
+	margin-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:#e0e0e0 solid 1px;
+}
+.demo_cat_text{
+	float:left;
+	position:relative;
+	width:702px;
+	padding:5px;
+	background:#fbfafa;
+	margin-left:8px;
+	margin-top:5px;
+	margin-bottom:0px;
+	border:#e0e0e0 solid 1px;
+}
+.demo_cat_picture_text{
+	float:left;
+	position:relative;
+	width:443px;
+	padding:5px;
+	background:#fbfafa;
+	margin-left:17px;
+	margin-top:5px;
+	margin-bottom:0px;
+	border:#e0e0e0 solid 1px;
+}
+.demo_tittle{
+	float:left;
+	position:relative;
+
+	padding-top:5px;
+	padding-bottom:0px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:18px;
+	color:#484646;
+}
+.demo_tittle_2{
+	float:left;
+	position:relative;
+	width:721px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	color:#838181;
+	padding-bottom:24px;
+}
+.demo_tittle_3{
+	float:left;
+	position:relative;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:22px;
+	color:#636363;
+	text-align:justify;
+	padding-right:15px;
+}
+
+.portfolio_info_box{
+   width:229px;
+   float:left;
+   margin-left:10px;
+   background:#fbfafa;
+   border:#e0e0e0 solid 1px;
+   padding:1px;
+   margin-top:5px;
+}
+
+.portfolio_info_box ul{
+	padding:0px;
+	margin:0px;
+	margin-left:10px;
+}
+
+.portfolio_info_box ul li{
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  font-size:11px;
+  line-height:22px;
+  color:#636363;
+  text-decoration:none;
+  background:url(/annanovas/images/sub-icon.gif) no-repeat left;
+  list-style:none;
+  padding-left:15px;
+}
+
+.portfolio_info_box ul li a{
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  font-size:11px;
+  line-height:22px;
+  color:#636363;
+  text-decoration:none;
+  list-style:none;
+  padding-left:0px;
+}
+
+.portfolio_info_box ul li a:hover{
+  font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  font-size:11px;
+  line-height:22px;
+  color:#4981d9;
+  text-decoration:underline;
+  list-style:none;
+  padding-left:0px;
+}
+
+.portfolio_info_box2{
+   width:229px;
+   float:left;
+   margin-left:16px;
+   background:#f2f2f2;
+   border:#e0e0e0 solid 1px;
+   padding:1px;
+   margin-top:10px;
+}
+
+.protfolio_info_text{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	color: #636363;
+	text-align:left;
+	padding:5px;
+}
+
+.priveous{
+width:auto;
+float:right;
+padding-right:5px;
+margin-left:10px;
+margin-top:15px;
+}
+.priveous ul{
+	margin:0px;
+	padding:0px;
+}
+.priveous ul li{
+	float:left;
+	position:relative;
+	padding-left:2px;
+	height:25px;
+	display:inline;
+}
+.priveous ul li a{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_middle.gif) repeat-x;
+	height:21px;
+	padding-top:4px;
+	padding-left:7px;
+	padding-right:7px;
+}
+.priveous ul li a:hover{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_hover.gif) repeat-x;
+	height:21px;
+	padding-top:4px;
+	padding-left:7px;
+	padding-right:7px;
+}
+
+.priveous ul li.select{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_hover.gif) repeat-x;
+	height:21px;
+	padding-top:4px;
+	padding-left:7px;
+	padding-right:7px;
+}
+.priveous ul li.select a{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_hover.gif) repeat-x;
+	height:21px;
+	padding-top:4px;
+	padding-left:7px;
+	padding-right:7px;
+}
+.priveous ul li.frist{
+	float:left;
+	position:relative;	
+	height:25px;
+	display:inline;		
+	margin-right:-7px;
+}
+.priveous ul li.frist a{
+	float:left;
+	position:relative;
+	height:25px;
+	display:inline;
+	background:url(/annanovas/images/priveous_left.gif) no-repeat left;
+	padding-left:16px;
+	margin-top:-2px;
+}
+.priveous ul li.frist a span{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#555555;
+	background:url(/annanovas/images/priveous_middle.gif) repeat-x;
+	height:21px;
+	margin-top:-2px;
+	padding-top:4px;
+	padding-right:2px;
+	}
+	.priveous ul li.frist a:hover{
+	float:left;
+	position:relative;
+	height:25px;
+	display:inline;
+	background:url(/annanovas/images/priveous_left_hover.gif) no-repeat left;
+	padding-left:16px;
+	margin-top:-2px;
+}
+.priveous ul li.frist a:hover span{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_hover.gif) repeat-x;
+	height:21px;
+	margin-top:-2px;
+	padding-top:4px;
+	padding-right:2px;
+	}
+
+.priveous ul li.last{
+	float:left;
+	position:relative;	
+	height:25px;
+	display:inline;		
+	margin-left:-7px;
+}
+.priveous ul li.last a{
+	float:left;
+	position:relative;
+	height:25px;
+	display:inline;
+	background:url(/annanovas/images/priveous_right.gif) no-repeat right;
+	padding-right:26px;
+	margin-top:-2px;
+}
+.priveous ul li.last a span{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#555555;
+	background:url(/annanovas/images/priveous_middle.gif) repeat-x;
+	height:21px;
+	margin-top:-2px;
+	padding-top:4px;
+	padding-right:2px;
+	padding-left:10px;
+}
+	.priveous ul li.last a:hover{
+	float:left;
+	position:relative;
+	height:25px;
+	display:inline;
+	background:url(/annanovas/images/priveous_right_hover.gif) no-repeat right;
+	padding-right:26px;
+	margin-top:-2px;
+}
+.priveous ul li.last a:hover span{
+	float:left;
+	position:relative;
+	display:inline;
+	text-decoration:none;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:9px;
+	color:#FFF;
+	background:url(/annanovas/images/priveous_hover.gif) repeat-x;
+	height:21px;
+	margin-top:-2px;
+	padding-top:4px;
+	padding-right:2px;
+	padding-left:10px;
+}
+
+
+#footer{
+	float:left;
+	width:100%;
+	background:#FFE url(/annanovas/images/main_body_bottom.gif) repeat-x;	
+}
+#footer2{
+	float:left;
+	width:100%;
+	background:#FFE url(/annanovas/images/main_body_bottom.gif) repeat-x;	
+}
+.footer_area{
+	margin:auto;
+	width:985px;
+	position:relative;
+	padding-top:21px;
+	background:#FFE url(/annanovas/images/main_body_bottom.gif) repeat-x;
+}
+
+/** contact us **/
+.contact_block_wrap{
+	width:300px;
+	float:left;
+
+
+}
+
+.contact_block{
+	width:270px;
+	float:left;
+    margin:15px 15px;
+	position:relative;
+	border:1px solid #E0E0E0;
+}
+
+.input_block{
+	
+
+	padding-bottom:5px;
+	margin-left:10px;
+	
+}
+
+.contact_text_input{
+	width:250px;
+	height:16px;
+	background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+	
+}
+.contact_textarea_input{
+    width:250px;
+    background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+	height:80px;
+}
+
+.contact_label{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#6C6C6C;
+	
+	
+}
+
+.map_block{
+	width:400px;
+	float:left;
+  margin-left:0px;
+	position:relative;
+	margin-top:15px;
+	border:1px solid #E0E0E0;
+	height:505px;
+	margin-bottom:10px;
+}
+
+.contact_info_block{
+	width:270px;
+	float:left;
+    margin:0px 15px 15px 15px;
+	border:1px solid #E0E0E0;
+	
+	
+}
+
+.email_block{
+	width:250px;
+	float:left;
+	margin:4px;
+	border:1px solid #E0E0E0;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#6C6C6C;
+	padding:5px;
+	
+}
+
+.phone_block{
+    width:250px;
+	float:left;
+	margin:4px;
+	border:1px solid #E0E0E0;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	color:#6C6C6C;
+	padding:5px;
+}
+/** contact us **/
+
+/*Start Request a Quote*/
+
+
+.quote_block_wrap{
+	width:710px;
+	float:left;
+
+
+}
+
+
+
+.quote_block{
+	width:680px;
+	float:left;
+    margin:15px 15px;
+	position:relative;
+	border:1px solid #E0E0E0;
+}
+
+
+.quote_select_input{
+	width:350px;
+	height:21px;
+	background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+	
+}
+.quote_text_input{
+	width:350px;
+	height:16px;
+	background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+	
+}
+.quote_textarea_input{
+    width:350px;
+    background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+}
+
+.site_details{
+	width:680px;
+	float:left;
+    margin:0px 15px 15px 15px;
+	position:relative;
+	border:1px solid #E0E0E0;
+}
+
+.quote_title{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6C6C6C;
+	padding:5px;
+	
+	
+}
+
+.quote_option_block{
+	width:680px;
+	float:left;
+	position:relative;
+	margin-left:5px;
+}
+.quote_left {
+background:url(/annanovas/images/service_body_left.gif) no-repeat scroll 0 0 transparent;
+float:left;
+height:20px;
+position:relative;
+width:10px;
+}
+.quote_option_tittle {
+background:url(/annanovas/images/service_body_middle.gif) repeat-x;
+color:#4981D9;
+float:left;
+font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:12px;
+height:15px;
+padding-left:5px;
+padding-top:3px;
+padding-bottom:3px;
+position:relative;
+width:648px;
+}
+.quote_option_tittle a {
+font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:12px;
+color:#4981D9;
+text-decoration:none;
+}
+.quote_option_tittle a:hover {
+font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+font-size:12px;
+color:#6C6C6C;
+text-decoration:none;
+}
+.quote_right  {
+background:url(/annanovas/images/service_body_right.gif) no-repeat scroll 0 0 transparent;
+float:left;
+height:20px;
+position:relative;
+width:7px;
+}
+
+.quote_option_inner_block{
+	width:650px;
+	float:left;
+	position:relative;
+	border:1px solid #E0E0E0;
+	margin-bottom:5px;
+	padding-left:18px;
+	padding-top:10px;
+	padding-bottom:5px;
+	
+	
+}
+
+.quote_textarea_input{
+    width:350px;
+    background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+}
+
+.describe_goal{
+	padding:10px;
+	
+}
+.quote_text_describe_goal{
+	width:650px;
+	background:#ffffff;
+	border:#dee6f3 solid 1px;
+	color:#6C6C6C;
+	padding-top:5px;
+	
+}
+/*End Request a Quote*/
+.err_div{
+	color:#F00;
+	padding-top:5px;
+}
+.msg_div{
+	color:#009;
+	padding-top:5px;
+}	
+	
+/* --- footer ---*/	
+.book_body ul{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+.book_body ul li{
+ list-style:none;
+ border:none;
+ display:inline;
+ margin-left:3px;
+
+}
+.book_body ul li.facebook{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.facebook a{
+	background:url(/annanovas/images/facebook_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.facebook a:hover{
+    background:url(/annanovas/images/facebook_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+
+.book_body ul li.twitter{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.twitter a{
+	background:url(/annanovas/images/twitter_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.twitter a:hover{
+    background:url(/annanovas/images/twitter_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+.book_body ul li.twitter{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.flickr a{
+	background:url(/annanovas/images/flickr_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.flickr a:hover{
+    background:url(/annanovas/images/flickr_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+
+
+.book_body ul li.twitter{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.flickr a{
+	background:url(/annanovas/images/flickr_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.flickr a:hover{
+    background:url(/annanovas/images/flickr_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+.book_body ul li.linkedin{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.linkedin a{
+	background:url(/annanovas/images/linkedin_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.linkedin a:hover{
+    background:url(/annanovas/images/linkedin_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+
+.book_body ul li.stumbleupon{
+	
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.stumbleupon a{
+	background:url(/annanovas/images/stumbleupon_1.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+	
+}
+.book_body ul li.stumbleupon a:hover{
+    background:url(/annanovas/images/stumbleupon_2.gif) no-repeat;
+	width:25px;
+	height:25px;
+	float:left;
+}
+
+/* --- footer ---*/
+
+/*Start quick link block*/
+.logo{
+	float:left;
+	width:224px;
+	position:relative;
+	padding-left:20px;
+	padding-top:1px;
+	padding-bottom:5px;
+}
+.quick_link_block{
+	width:323px;
+	padding-top:50px;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:11px;
+	text-align:center;
+	float:left;
+	padding-left:247px;
+}
+.quick_link_block ul{
+	padding:0px;
+	margin:0px;
+}
+
+
+.quick_link_block ul li{
+
+	float:left;
+	display:inline;
+	margin-left:8px;
+	
+}
+.quick_link_block ul li a{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#636363;
+	text-decoration:none;
+	float:left;
+}
+.quick_link_block ul li a:hover{
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:10px;
+	color:#2757A2;
+	text-decoration:underline;
+	
+}
+
+
+
+.quick_link_block ul li.contcat{
+	background:url(/annanovas/images/contact_icon.png) no-repeat left;
+	width:64px;
+	height:42px;
+	float:left;
+	display:inline;
+	padding-top:8px;
+	line-height:92px;
+}
+
+
+.quick_link_block ul li.request{
+	background:url(/annanovas/images/request_icon.png) no-repeat left;
+	width:94px;
+	height:49px;
+	float:left;
+	padding-left:0px;
+	display:inline;
+	line-height:108px;
+}
+
+
+.quick_link_block ul li.aboutus{
+	background:url(/annanovas/images/aboutus_icon.png) no-repeat left;
+	width:52px;
+	height:49px;
+	float:left;
+	display:inline;
+	line-height:108px;
+	padding-left:5px;
+}
+/*Start quick link block*/

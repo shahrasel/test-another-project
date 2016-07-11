@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<restore>
+	<role>admin</role>
+</restore>
+<config>
+	<role>admin</role>
+</config>
+<paypalconfig>
+	<role>admin</role>
+</paypalconfig>
+<manage>
+	<role>admin</role>
+</manage>

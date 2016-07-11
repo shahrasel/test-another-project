@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<url>
+	<exp>plist/.*/.*</exp>
+	<perform>plist/cms_module/cms_action</perform>
+</url>
+<url>
+	<exp>send/confirmationmial/.*/.*</exp>
+	<perform>send/confirmationmial/cms_module/cms_action</perform>
+</url>
+<url>
+	<exp>activation/.*/.*</exp>
+	<perform>activation/cms_module/cms_action</perform>
+</url>
+<url>
+	<exp>.*</exp>
+	<perform>cms_page</perform>
+</url>

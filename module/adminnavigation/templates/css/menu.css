@@ -1,0 +1,112 @@
+/*
+* 									{ margin: 0; padding: 0; }
+body								{ font: 14px Helvetica, Sans-Serif; } 
+#page-wrap							{ width: 800px; margin: 25px auto; } 
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+p                                   { margin: 15px 0; }
+*/
+/* 
+	LEVEL ONE
+*/
+
+
+ul.dropdown{ 
+	position: relative; 
+	list-style:none; 
+	padding:0px; 
+	margin:0px;
+}
+ul.dropdown li{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	font-weight:bold; 
+	color:#FFFFFF;
+	list-style:none; 
+	display:inline; 
+	position:relative; 
+	float:left;
+}
+ul.dropdown a:hover { 
+	color: #000; 
+	text-decoration:none;
+}
+ul.dropdown a:active { 
+	color: #ffa500; 
+}
+ul.dropdown li a { 
+	display: block; 
+	text-decoration:none;
+	color:#FFFFFF; 
+	padding-left:16px; 
+	padding-right:16px; 
+	padding-top:9px; 
+	padding-bottom:11px; 
+}
+ul.dropdown li:last-child a { 
+	border-right: none; 
+} /* Doesn't work in IE */
+
+ul.dropdown li.hover{
+	 color:#FFFFFF; 
+	 list-style:none; 
+	 background:url(/cms/coreimages/cn_nav_hover.gif) repeat-x; 
+}
+ul.dropdown li.hover a{ 
+	color:#FFF;
+	padding-left:16px; 
+	padding-right:16px; 
+	padding-top:9px; 
+	padding-bottom:11px; 
+}
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul{ 
+	width: 220px; 
+	visibility: hidden; 
+	position: absolute; 
+	top: 100%; left: 0; 
+	z-index:100;
+	list-style:none; 
+}
+ul.dropdown ul li { 
+	
+	background:url(/cms/coreimages/cn_nav_bg.gif) repeat-x;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	font-weight:bold; 
+	color:#FFFFFF;
+	list-style:none; 
+	display:inline; 
+	/*height:16px; */
+	width:100%;
+	position:relative; 
+	float:left;
+}
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+
+ul.dropdown ul li a	{ 
+	color:#000;
+	border-right: none; 
+	width: 100%; 
+	display: inline-block;
+	
+	padding-left:16px; 
+	padding-right:16px; 
+	padding-top:9px; 
+	padding-bottom:11px; 
+} 
+
+/* 
+	LEVEL THREE
+*/
+
+ul.dropdown ul ul { 
+	left: 100%; top: 0; 
+}
+ul.dropdown li:hover > ul { 
+	visibility: visible; 
+}

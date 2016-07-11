@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Name:<span style="color:#CC0000;">*</span></label>
+	<name>name</name>
+	<type>text</type>
+	<class>contact_text_input</class>
+	<message>Please Enter Your Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Email:<span style="color:#CC0000;">*</span></label>
+	<name>email</name>
+	<type>text</type>
+	<class>contact_text_input</class>
+	<rule>email</rule>
+	<message>Please Enter Your Mail</message>
+	<required>true</required>
+</field>
+<field>
+	<label>Message:<span style="color:#CC0000;">*</span></label>
+	<name>message</name>
+	<type>textarea</type>
+	<class>contact_textarea_input</class>
+	<message>Please Enter Your Message</message>
+	<rule>notempty</rule>
+	<col>
+</field>

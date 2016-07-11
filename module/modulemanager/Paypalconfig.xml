@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Paypal Retrun Url</label>
+	<name>paypal_api_return</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Return Url</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Paypal Cancel Url</label>
+	<name>paypal_api_cancel</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Cancel Url</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Paypal Currency Code</label>
+	<name>paypal_api_currency</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Currency Code</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Paypal User Name</label>
+	<name>paypal_api_username</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter User Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Paypal User Password</label>
+	<name>paypal_api_pass</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter User Password</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Paypal API Signature</label>
+	<name>paypal_api_signature</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter API Signature</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>SBN Code</label>
+	<name>paypal_api_sbncode</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter SBN Code</message>
+	
+</field>
+<field>
+	<label>Use Proxy</label>
+	<name>paypal_api_useproxy</name>
+	<type>checkbox</type>
+	<class></class>
+</field>
+<field>
+	<label>Use Sandbox</label>
+	<name>paypal_api_usesandbox</name>
+	<type>checkbox</type>
+	<class>input_box</class>
+</field>
+<field>
+	<label>Proxy Host</label>
+	<name>paypal_api_proxyhost</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Proxyhost</message>
+</field>
+<field>
+	<label>Proxy Port</label>
+	<name>paypal_api_proxyport</name>
+	<type>textbox</type>
+	<class>text_box_550</class>	
+</field>

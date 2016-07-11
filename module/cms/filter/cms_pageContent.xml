@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<query>
+	<usetemplate>0</usetemplate>
+  <perpage>1</perpage>
+	<sql></sql>
+	<select>id,name,body</select>
+	<table>sea_cms</table>
+	<where>name="#name" and active='Active'</where>
+	<orderby></orderby>
+	<groupby></groupby>
+</query>

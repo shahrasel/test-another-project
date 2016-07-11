@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a img {
+border : 0;
+}
+div.wrap2 {
+width : 206px;
+margin : 0 auto;
+text-align : left;
+background:#FFF;
+}
+div#top div#nav {
+float : left;
+clear : both;
+width : 207px;
+height : 52px;
+margin : 22px 0 0;
+}
+div#top div#nav ul {
+float : left;
+width : 150px;
+height : 52px;
+list-style-type : none;
+}
+div#nav ul li {
+float : left;
+height : 52px;
+}
+div#nav ul li a {
+border : 0;
+height : 52px;
+display : block;
+line-height : 52px;
+text-indent : -200px;
+}
+div#header2 {
+margin : -1px 0 0;
+}
+div#video-header {
+height : 150px;
+margin : -1px 0 0;
+}
+div#header2 div.wrap2 {
+
+
+}
+div#header2 div#slide-holder2 {
+z-index : 40;
+width : 206px;
+height : 230px;
+/*position : absolute;*/
+}
+div#header2 div#slide-holder2 div#slide-runner2 {
+margin-top: -20px;	
+top : 0px;
+left : 0px;
+width : 206px;
+height : 230px;
+overflow : hidden;
+position : absolute;
+}
+div#header2 div#slide-holder2 img {
+margin : 0;
+display : none;
+position : absolute;
+}
+div#header2 div.wrap2  div#slide-controls2 {
+left : 0;
+bottom :0px;
+width : 206px;
+display : none;
+position : absolute;
+
+}
+div#header2 div#slide-holder2 div#slide-controls2 p.text {
+float : left;
+color : #fff;
+display : inline;
+font-size : 10px;
+line-height : 16px;
+margin : 15px 0 0 20px;
+text-transform : uppercase;
+}
+#slide-desc2{
+border-bottom:#FFF solid 1px;
+}
+
+div#header2 div#slide-holder2 div#slide-controls2 p#slide-nav2 {
+float:left;
+height : 10px;
+display : inline;
+margin : 11px 15px 0 0;
+}
+div#header2 div#slide-holder2 div#slide-controls2 p#slide-nav2 a {
+float : left;
+width : 5px;
+height : 5px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header2 div#slide-holder2 div#slide-controls2 p#slide-nav2 a.on {
+background-position : 0 -5px;
+}
+div#header2 div#slide-holder2 div#slide-controls2 p#slide-nav2 a {
+background-image : url(images/silde-nav.png);
+}
+div#nav ul li a {
+background : url(images/nav.png) no-repeat;
+}

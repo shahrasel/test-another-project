@@ -1,0 +1,373 @@
+/*
+  Title # CN Admin Pannel
+  Date  # 12 October 2009
+*/
+
+body{ padding:0px; margin:0px; background:#f1f1f1 url(images/cn_body_bg.gif) repeat-x; }
+
+
+#wrap{
+      width:980px;
+	  margin:auto;
+	  text-align:left;
+	  }
+	  
+	  
+#wrap2{
+       width:600px;
+	   padding:200px 0px 0px 280px;
+	   float:left;
+	   position:relative;
+	   }
+	   
+#wrap3{
+       width:980px;
+	   float:left;
+	   position:relative;
+	   background-color:#FFFFFF;
+	   border-left:2px solid #DADADA;
+	   border-right:2px solid #DADADA;
+	   }	   
+	   
+
+h1{ font-family:Arial, Helvetica, sans-serif; font-weight:normal; padding:0px; margin:0px; }
+	   
+ul{ padding:0px; margin:0px; }
+
+.input_box{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#696969; width:254px; border:1px solid #ADADAD;
+            height:22px;
+		  }
+
+
+/* ============================================= Start Text ============================================== */
+
+.font{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#696969; }
+
+.font2{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#4D70A8; }
+    .font2 a{ color:#4D70A8; text-decoration:none; }
+	    .font2 a:hover{ color:#4D70A8; text-decoration:underline; }
+		
+.font3{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; font-weight:normal; }
+
+.font4{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#696969; }
+   .font4 a{  color:#696969; text-decoration:underline; }
+      .font4 a:hover{  color:#696969; text-decoration:none; }
+	  
+.font5{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#4D70A8; }
+    .font5 a{ color:#4D70A8; text-decoration:underline; }
+	    .font5 a:hover{ color:#4D70A8; text-decoration:none; }	  
+		
+
+/* ============================================= End Text ================================================ */
+
+
+/* ============================================= Start LOgin ============================================== */
+
+.login{
+       width:422px;
+	   float:left;
+	   position:relative;
+	   }
+	   
+.login_body{
+		   width:420px;
+		   float:left;
+		   position:relative;
+		   border:1px solid #C8C8C8;
+		   }
+		   
+		.login_top{
+				   width:407px;
+				   padding:8px 0px 0px 13px;
+				   background:url(images/cn_login_top.gif) repeat-x;
+				   height:24px;
+				   float:left;
+				   position:relative;
+				   }
+				   
+			   .login_top h1{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#2C2C2C; font-weight:bold; } 
+			   
+		.login_mid{
+				   width:405px;
+				   padding:14px 0px 0px 15px;
+				   background:url(images/cn_login_mid_bg.gif) repeat-x;
+				   height:213px;
+				   border-top:1px solid #C8C8C8;
+				   float:left;
+				   position:relative;
+				   }
+				   
+				.login_mid h1{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#2C2C2C; font-weight:bold;
+				               background:url(images/cn_bullett.gif) left no-repeat; padding-left:31px; height:20px; padding-top:6px;
+							 }   
+				   
+			    .login_mid2{
+						   width:350px;
+						   padding:15px 0px 0px 55px;
+						   float:left;
+						   position:relative;
+						   }	   	        
+
+/* ============================================= End Login ================================================ */ 
+
+
+/* =========================================== Start Top ================================================= */
+
+#top{
+     width:958px;
+	 padding:0px 4px 0px 18px;
+	 float:left;
+	 position:relative;
+	 background:#313a41 url(images/cn_header_bg.gif) repeat-x;
+	 height:114px;
+	 }
+	 
+#logo{
+      width:300px;
+	  padding-top:19px;
+	  float:left;
+	  position:relative;
+	  }
+	  
+	  #logo h1{ font-family:Georgia, "Times New Roman", Times, serif; font-size:32px; color:#FFFFFF; font-weight:bold; }
+	  
+.top_text{
+		  width:205px;
+		  padding-top:5px;
+		  float:right;
+		  position:relative;
+		  text-align:right;
+		  } 
+		  
+		 .top_text li{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFFFFF; font-weight:bold; display:inline;
+		               background:url(images/cn_top_line.gif) left no-repeat; height:20px; padding-left:10px; padding-right:8px;
+					 } 
+			  .top_text li a{ color:#FFFFFF; text-decoration:none; }
+			      .top_text li a:hover{ color:#FFFFFF; text-decoration:underline; }		 
+					 	 
+
+/* ============================================ End Top ================================================== */  
+
+
+/* ======================================== Start Navigation ============================================= */
+
+.nav{
+     width:980px;
+	 background:url(images/cn_nav_bg.gif) repeat-x;
+	 height:36px;
+	 float:left;
+	 position:relative;
+	 }
+	 
+	
+						   
+	.nav li{
+            font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#FFFFFF;
+		    list-style:none; display:inline; height:16px; position:relative; float:left;
+		   }
+		 
+  .nav li a{
+			color:#FFFFFF; list-style:none; padding-left:16px; padding-right:16px; position:relative; padding-top:9px; padding-bottom:11px; 
+			text-decoration:none;
+		   }
+		 
+	.nav li a:hover{
+				    color:#FFFFFF; list-style:none; background:url(images/cn_nav_hover.gif) repeat-x;
+				   }					     
+				  		   	   
+.nav_top{ margin-top:9px; }
+
+.nav_fixed{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#2C2C2C; padding-top:9px; padding-bottom:11px;
+            background:url(images/cn_nav_fixedhover.gif) repeat-x; padding-left:16px; padding-right:16px;
+		  }
+		  
+.nav_font{ color:#2C2C2C; }
+/* ========================================= End Navigation ============================================= */
+
+#brows_clients{
+               width:945px;
+			   padding:9px 19px 9px 16px;
+			   float:left;
+			   position:relative;
+			   }
+			   
+	   #new_clients{
+				   width:151px;
+				   float:left;
+				   position:relative;
+				   }
+				   
+		     #new_clients h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#A2A2A2; font-weight:normal;
+		                      background:url(images/cn_star_bullett.gif) left no-repeat; padding-left:36px;
+						    }
+				  #new_clients h1 a{ color:#A2A2A2; text-decoration:none; }	
+				     #new_clients h1 a:hover{ color:#A2A2A2; text-decoration:underline; }	
+					 
+		#new_clients2{
+				   width:70px;
+				   float:left;
+				   position:relative;
+				   }
+				   
+			 #new_clients2 h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#6A6A6A; font-weight:bold; }
+                #new_clients2 h1 a{ color:#6A6A6A; text-decoration:none; }
+	               #new_clients2 h1 a:hover{ color:#6A6A6A; text-decoration:underline; }	   			 	 
+
+     						 		   		   
+	   #search{
+			   width:60px;
+			   float:right;
+			   position:relative;
+			   }
+			
+			#search h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#8DC248; font-weight:bold;
+		                background:url(images/cn_search_bullett.gif) right top no-repeat; padding-right:3px;
+					  }
+				  #search h1 a{ color:#8DC248; text-decoration:none; }	
+				     #search h1 a:hover{ color:#8DC248; text-decoration:underline; } 
+					 
+					 
+/* ======================================================== Start Main Body ================================================================= */
+
+#main_body{
+           width:949px;
+		   padding:13px 16px 40px 15px;
+		   border-top:2px solid #DADADA;
+		   float:left;
+		   position:relative;
+		   }
+		   	
+			
+		.new_clients_bg{
+						width:934px;
+						padding:8px 0px 0px 13px;
+						background:url(images/cn_new_clients_bg.gif) repeat-x;
+						height:24px;
+						border:1px solid #C8C8C8;
+						float:left;
+						position:relative;
+						}
+						
+			   .new_clients_bg h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#2C2C2C; font-weight:bold; }
+		
+		.main_body2{
+					width:931px;
+					padding:10px 9px 0px 7px;
+					border-left:1px solid #C8C8C8;
+					border-right:1px solid #C8C8C8;
+					float:left;
+					position:relative;
+					}
+					
+			    .main_body2a{
+							width:919px;
+							padding:10px 0px 6px 12px;
+							background-color:#F1F1F1;
+							border-bottom:2px solid #DADADA;
+							float:left;
+							position:relative;
+							}
+							
+					 .main_body2a h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#696969; font-weight:bold; }				   		   
+		       
+			   .main_body2b{
+							width:931px;
+							padding:11px 0px 16px 0px;
+							float:left;
+							position:relative;
+							}
+				
+				.main_body2c{
+							width:919px;
+							padding:11px 0px 16px 12px;
+							float:left;
+							position:relative;
+							}			
+							
+		.main_body3{
+					width:949px;
+					float:left;
+					position:relative;
+					}					
+
+/* ========================================================= End Main Body ================================================================== */
+
+
+/* ========================================================= Start Bottm ================================================================== */	
+
+#bottom{
+        width:955px;
+		padding:30px 25px 30px 0px;
+		border-top:1px solid #DADADA;
+		float:left;
+		position:relative;
+		}
+
+/* ========================================================== End Bottm =================================================================== */	
+
+
+
+
+/* ======================== Start List Page =========================== */
+
+
+.list_bg{
+		width:934px;
+		padding:0px 0px 0px 13px;
+		background:url(images/cn_new_clients_bg.gif) repeat-x;
+		height:32px;
+		border:1px solid #C8C8C8;
+		float:left;
+		position:relative;
+		}
+
+		.list{
+			  width:110px;
+			  padding-top:8px;
+			  float:left;
+			  position:relative;
+			  }
+			  
+			 .list h1{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#2C2C2C; font-weight:bold; }
+			 
+		.list2{
+			  width:223px;
+			  float:right;
+			  position:relative;
+			  background:url(images/cn_list3_bg.gif) repeat-x;
+			  height:32px;
+			  }	
+			  
+			  .list2 li{
+						font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#2C2C2C;
+						list-style:none; display:inline; position:relative; float:left; padding-top:8px;
+					   }
+		 
+  .list2 li a{
+			color:#2C2C2C; list-style:none; padding-left:15px; padding-right:15px; position:relative; padding-top:8px; padding-bottom:9px; 
+			text-decoration:none; border-left:1px solid #D1D1D1;
+		   }
+		 
+	.list2 li a:hover{ color:#2C2C2C; list-style:none; background:url(images/cn_list2_bg.gif) repeat-x; height:32px; } 
+	
+				  
+	.list2_fixed{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#2C2C2C; padding-top:8px; padding-bottom:9px;
+				  background-color:#FFFFFF; padding-left:15px; padding-right:15px;
+				 }
+				 
+				 
+/*\*/
+ html>body*
+        .list2{
+			  width:235px;
+			  float:right;
+			  position:relative;
+			  background:url(images/cn_list3_bg.gif) repeat-x;
+			  height:32px;
+			  }
+/*\*/
+
+				 		  
+
+/* ======================== End List Page ============================ */			  
+			    

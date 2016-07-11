@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Last Balance</label>
+	<name>balance</name>
+	<type>text</type>
+	<class>input_box</class>
+	<readonly>readonly</readonly>
+	<rule>notempty</rule>
+</field>
+
+<field>
+	<label>Withdraw Amount</label>
+	<name>wamount</name>
+	<type>text</type>
+	<class>input_box</class>
+	<message>Please Enter Withdrawl Amount</message>
+	<rule>numeric</rule>
+</field>

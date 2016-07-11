@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Page Title</label>
+	<name>page_title</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Page Title</message>
+</field>
+<field>
+	<label>Meta Description</label>
+	<name>meta_description</name>
+	<type>text</type>
+	<class>text_area_550</class>
+</field>
+<field>
+	<label>Meta Keyword</label>
+	<name>meta_keyword</name>
+	<type>text</type>
+	<class>text_area_550</class>
+</field>
+<field>
+	<label>Content Name</label>
+	<name>name</name>
+	<type>text</type>
+	<class>text_box_550</class>
+	<message>Please Enter Content Name</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Content Body</label>
+	<name>body</name>
+	<type>ck</type>
+	<class></class>
+	<message>Please Enter Content Body</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Is Active</label>
+	<name>active</name>
+	<type>select</type>
+</field>

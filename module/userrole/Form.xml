@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<field>
+	<label>Role Title</label>
+	<name>title</name>
+	<type>text</type>
+	<class>text_box_250</class>
+	<message>Please Enter Role Title</message>
+	<rule>notempty</rule>
+</field>
+<field>
+	<label>Active Status</label>
+	<name>active</name>
+	<type>select</type>
+	<class>select_box_250</class>
+	<message>Must be select an active status</message>
+	<rule>notempty</rule>
+</field>
